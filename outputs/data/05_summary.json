@@ -1,0 +1,36 @@
+{
+  "notebook": "05_high_dimensions_and_contamination",
+  "distance_concentration": {
+    "dimensions": [
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500
+    ],
+    "ratio": [
+      238.30650334774646,
+      29.86978710927869,
+      4.7989600522566835,
+      2.222626407133873,
+      1.0719158092071857,
+      0.6150028947981546,
+      0.4232753155093414,
+      0.27521276545001705
+    ],
+    "ratio_d2": 238.30650334774646,
+    "ratio_d500": 0.27521276545001705
+  },
+  "mahalanobis_recall_2_vs_100_noise_dims": {
+    "2": 0.6875,
+    "100": 0.265625
+  },
+  "claims": {
+    "concentration": "Pairwise distances concentrate as dimension grows (ratio 2D>>500D).",
+    "signal_vs_noise": "Extra signal-bearing dims help; extra noise dims hurt all detectors.",
+    "contamination": "High contamination corrupts rarity-assuming detectors; three-sigma collapses."
+  }
+}

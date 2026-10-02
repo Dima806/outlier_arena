@@ -1,0 +1,26 @@
+{
+  "notebook": "02_kinds_of_outliers",
+  "types": [
+    "global",
+    "local",
+    "multivariate"
+  ],
+  "counts_by_type": {
+    "normal": 552,
+    "global": 16,
+    "local": 16,
+    "multivariate": 16
+  },
+  "multivariate_point": {
+    "value": [
+      1.4,
+      -1.4
+    ],
+    "marginal_percentiles": {
+      "x0": 0.9025,
+      "x1": 0.07
+    },
+    "mahalanobis_more_extreme_than_fraction_of_cloud": 1.0
+  },
+  "claim": "A single dataset can hold global, local and multivariate anomalies; univariate rules can only ever see the global kind."
+}

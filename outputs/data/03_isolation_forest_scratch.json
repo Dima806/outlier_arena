@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "n_samples": 300,
+    "n_trees": 80,
+    "subsample": 128,
+    "seed": 1
+  },
+  "spearman_vs_sklearn": 0.9227275858620652
+}

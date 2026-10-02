@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "n_samples": 400
+  },
+  "max_abs_diff_vs_sklearn": 1.5987211554602254e-14,
+  "matches_reference": true
+}

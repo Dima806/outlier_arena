@@ -1,0 +1,366 @@
+{
+  "signal_sweep": [
+    {
+      "dimension": 2,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 2,
+      "detector": "iqr",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 2,
+      "detector": "mahalanobis",
+      "recall": 0.6875
+    },
+    {
+      "dimension": 2,
+      "detector": "isolation_forest",
+      "recall": 0.921875
+    },
+    {
+      "dimension": 2,
+      "detector": "lof",
+      "recall": 0.96875
+    },
+    {
+      "dimension": 2,
+      "detector": "one_class_svm",
+      "recall": 0.703125
+    },
+    {
+      "dimension": 5,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 5,
+      "detector": "iqr",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 5,
+      "detector": "mahalanobis",
+      "recall": 0.921875
+    },
+    {
+      "dimension": 5,
+      "detector": "isolation_forest",
+      "recall": 0.796875
+    },
+    {
+      "dimension": 5,
+      "detector": "lof",
+      "recall": 1.0
+    },
+    {
+      "dimension": 5,
+      "detector": "one_class_svm",
+      "recall": 0.78125
+    },
+    {
+      "dimension": 10,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 10,
+      "detector": "iqr",
+      "recall": 0.359375
+    },
+    {
+      "dimension": 10,
+      "detector": "mahalanobis",
+      "recall": 0.984375
+    },
+    {
+      "dimension": 10,
+      "detector": "isolation_forest",
+      "recall": 0.765625
+    },
+    {
+      "dimension": 10,
+      "detector": "lof",
+      "recall": 0.984375
+    },
+    {
+      "dimension": 10,
+      "detector": "one_class_svm",
+      "recall": 0.78125
+    },
+    {
+      "dimension": 20,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 20,
+      "detector": "iqr",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 20,
+      "detector": "mahalanobis",
+      "recall": 0.984375
+    },
+    {
+      "dimension": 20,
+      "detector": "isolation_forest",
+      "recall": 0.6875
+    },
+    {
+      "dimension": 20,
+      "detector": "lof",
+      "recall": 0.984375
+    },
+    {
+      "dimension": 20,
+      "detector": "one_class_svm",
+      "recall": 0.796875
+    },
+    {
+      "dimension": 50,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "dimension": 50,
+      "detector": "iqr",
+      "recall": 0.640625
+    },
+    {
+      "dimension": 50,
+      "detector": "mahalanobis",
+      "recall": 0.984375
+    },
+    {
+      "dimension": 50,
+      "detector": "isolation_forest",
+      "recall": 0.671875
+    },
+    {
+      "dimension": 50,
+      "detector": "lof",
+      "recall": 0.921875
+    },
+    {
+      "dimension": 50,
+      "detector": "one_class_svm",
+      "recall": 0.8125
+    },
+    {
+      "dimension": 100,
+      "detector": "three_sigma",
+      "recall": 0.359375
+    },
+    {
+      "dimension": 100,
+      "detector": "iqr",
+      "recall": 0.734375
+    },
+    {
+      "dimension": 100,
+      "detector": "mahalanobis",
+      "recall": 0.953125
+    },
+    {
+      "dimension": 100,
+      "detector": "isolation_forest",
+      "recall": 0.6875
+    },
+    {
+      "dimension": 100,
+      "detector": "lof",
+      "recall": 0.921875
+    },
+    {
+      "dimension": 100,
+      "detector": "one_class_svm",
+      "recall": 0.796875
+    }
+  ],
+  "noise_sweep": [
+    {
+      "total_dim": 2,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "total_dim": 2,
+      "detector": "iqr",
+      "recall": 0.34375
+    },
+    {
+      "total_dim": 2,
+      "detector": "mahalanobis",
+      "recall": 0.6875
+    },
+    {
+      "total_dim": 2,
+      "detector": "isolation_forest",
+      "recall": 0.921875
+    },
+    {
+      "total_dim": 2,
+      "detector": "lof",
+      "recall": 0.96875
+    },
+    {
+      "total_dim": 2,
+      "detector": "one_class_svm",
+      "recall": 0.703125
+    },
+    {
+      "total_dim": 5,
+      "detector": "three_sigma",
+      "recall": 0.34375
+    },
+    {
+      "total_dim": 5,
+      "detector": "iqr",
+      "recall": 0.34375
+    },
+    {
+      "total_dim": 5,
+      "detector": "mahalanobis",
+      "recall": 0.375
+    },
+    {
+      "total_dim": 5,
+      "detector": "isolation_forest",
+      "recall": 0.484375
+    },
+    {
+      "total_dim": 5,
+      "detector": "lof",
+      "recall": 0.890625
+    },
+    {
+      "total_dim": 5,
+      "detector": "one_class_svm",
+      "recall": 0.390625
+    },
+    {
+      "total_dim": 10,
+      "detector": "three_sigma",
+      "recall": 0.359375
+    },
+    {
+      "total_dim": 10,
+      "detector": "iqr",
+      "recall": 0.359375
+    },
+    {
+      "total_dim": 10,
+      "detector": "mahalanobis",
+      "recall": 0.390625
+    },
+    {
+      "total_dim": 10,
+      "detector": "isolation_forest",
+      "recall": 0.390625
+    },
+    {
+      "total_dim": 10,
+      "detector": "lof",
+      "recall": 0.546875
+    },
+    {
+      "total_dim": 10,
+      "detector": "one_class_svm",
+      "recall": 0.3125
+    },
+    {
+      "total_dim": 20,
+      "detector": "three_sigma",
+      "recall": 0.40625
+    },
+    {
+      "total_dim": 20,
+      "detector": "iqr",
+      "recall": 0.421875
+    },
+    {
+      "total_dim": 20,
+      "detector": "mahalanobis",
+      "recall": 0.421875
+    },
+    {
+      "total_dim": 20,
+      "detector": "isolation_forest",
+      "recall": 0.328125
+    },
+    {
+      "total_dim": 20,
+      "detector": "lof",
+      "recall": 0.484375
+    },
+    {
+      "total_dim": 20,
+      "detector": "one_class_svm",
+      "recall": 0.390625
+    },
+    {
+      "total_dim": 50,
+      "detector": "three_sigma",
+      "recall": 0.4375
+    },
+    {
+      "total_dim": 50,
+      "detector": "iqr",
+      "recall": 0.59375
+    },
+    {
+      "total_dim": 50,
+      "detector": "mahalanobis",
+      "recall": 0.3125
+    },
+    {
+      "total_dim": 50,
+      "detector": "isolation_forest",
+      "recall": 0.125
+    },
+    {
+      "total_dim": 50,
+      "detector": "lof",
+      "recall": 0.421875
+    },
+    {
+      "total_dim": 50,
+      "detector": "one_class_svm",
+      "recall": 0.296875
+    },
+    {
+      "total_dim": 100,
+      "detector": "three_sigma",
+      "recall": 0.53125
+    },
+    {
+      "total_dim": 100,
+      "detector": "iqr",
+      "recall": 0.6875
+    },
+    {
+      "total_dim": 100,
+      "detector": "mahalanobis",
+      "recall": 0.265625
+    },
+    {
+      "total_dim": 100,
+      "detector": "isolation_forest",
+      "recall": 0.125
+    },
+    {
+      "total_dim": 100,
+      "detector": "lof",
+      "recall": 0.421875
+    },
+    {
+      "total_dim": 100,
+      "detector": "one_class_svm",
+      "recall": 0.296875
+    }
+  ]
+}

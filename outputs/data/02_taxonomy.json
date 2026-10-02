@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "n_samples": 600,
+    "n_features": 2,
+    "contamination": 0.08,
+    "seed": 7
+  },
+  "counts_by_type": {
+    "normal": 552,
+    "global": 16,
+    "local": 16,
+    "multivariate": 16
+  }
+}

@@ -1,0 +1,29 @@
+# Default configuration for outlier_arena.
+# Loaded by src/config.py (pydantic-settings). Everything reproducible is seeded here.
+
+seed: 7
+
+# Synthetic-dataset defaults.
+dataset:
+  n_samples: 1000          # total points before anomalies are added
+  n_features: 2
+  contamination: 0.08      # fraction of points that are planted anomalies
+  # How the contamination budget is split across the three planted types.
+  type_weights:
+    global: 0.34
+    local: 0.33
+    multivariate: 0.33
+
+# Detector thresholds / hyper-parameters.
+detectors:
+  three_sigma_k: 3.0       # flag |z| > k
+  iqr_k: 1.5               # flag beyond Q1 - k*IQR or Q3 + k*IQR
+  modified_z_threshold: 3.5
+  isolation_forest_estimators: 200
+  lof_neighbors: 20
+  one_class_svm_nu: 0.08   # typically set to the contamination rate
+
+# Stress-test grids for notebook 05.
+stress:
+  dimensions: [2, 5, 10, 20, 50, 100]
+  contaminations: [0.02, 0.05, 0.10, 0.20, 0.35]

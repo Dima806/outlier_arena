@@ -1,0 +1,13 @@
+{
+  "point": [
+    1.4,
+    -1.4
+  ],
+  "marginal_percentiles": {
+    "x0": 0.9025,
+    "x1": 0.07
+  },
+  "mahalanobis_sq": 27.322713061882776,
+  "mahalanobis_more_extreme_than_fraction_of_cloud": 1.0,
+  "note": "plausible on each feature, far off the correlation in combination"
+}

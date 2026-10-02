@@ -1,0 +1,15 @@
+{
+  "notebook": "01_three_sigma_is_broken",
+  "claims": {
+    "masking": "Three-sigma's own inflated std moves the band past the extreme outliers, so it flags none of them; IQR flags all.",
+    "masking_is_exact": "Each outlier's z-score is sqrt((n-m)/m), independent of how extreme the value is.",
+    "skew": "On right-skewed data three-sigma misses the short-side anomaly and swamps legitimate long-tail points; IQR catches the anomaly."
+  },
+  "headline_numbers": {
+    "masking_three_sigma_recall": 0.0,
+    "masking_iqr_recall": 1.0,
+    "skew_three_sigma_recall": 0.0,
+    "skew_three_sigma_false_positives": 11,
+    "skew_iqr_recall": 1.0
+  }
+}

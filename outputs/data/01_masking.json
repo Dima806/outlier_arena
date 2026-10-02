@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "n_clean": 40,
+    "n_outliers": 8,
+    "outlier_value": 40.0,
+    "seed": 7
+  },
+  "three_sigma_band": [
+    -38.88034619221254,
+    51.55503759165677
+  ],
+  "three_sigma_recall": 0.0,
+  "iqr_recall": 1.0,
+  "three_sigma_false_positives": 0
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "contamination": 0.02,
+    "detector": "three_sigma",
+    "precision": 1.0,
+    "recall": 0.375
+  },
+  {
+    "contamination": 0.02,
+    "detector": "iqr",
+    "precision": 1.0,
+    "recall": 0.375
+  },
+  {
+    "contamination": 0.02,
+    "detector": "mahalanobis",
+    "precision": 0.875,
+    "recall": 0.875
+  },
+  {
+    "contamination": 0.02,
+    "detector": "isolation_forest",
+    "precision": 0.875,
+    "recall": 0.875
+  },
+  {
+    "contamination": 0.02,
+    "detector": "lof",
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  {
+    "contamination": 0.02,
+    "detector": "one_class_svm",
+    "precision": 0.6875,
+    "recall": 0.6875
+  },
+  {
+    "contamination": 0.05,
+    "detector": "three_sigma",
+    "precision": 1.0,
+    "recall": 0.35
+  },
+  {
+    "contamination": 0.05,
+    "detector": "iqr",
+    "precision": 1.0,
+    "recall": 0.35
+  },
+  {
+    "contamination": 0.05,
+    "detector": "mahalanobis",
+    "precision": 0.75,
+    "recall": 0.75
+  },
+  {
+    "contamination": 0.05,
+    "detector": "isolation_forest",
+    "precision": 0.9,
+    "recall": 0.9
+  },
+  {
+    "contamination": 0.05,
+    "detector": "lof",
+    "precision": 0.975,
+    "recall": 0.975
+  },
+  {
+    "contamination": 0.05,
+    "detector": "one_class_svm",
+    "precision": 0.717948717948718,
+    "recall": 0.7
+  },
+  {
+    "contamination": 0.1,
+    "detector": "three_sigma",
+    "precision": 1.0,
+    "recall": 0.3375
+  },
+  {
+    "contamination": 0.1,
+    "detector": "iqr",
+    "precision": 1.0,
+    "recall": 0.3375
+  },
+  {
+    "contamination": 0.1,
+    "detector": "mahalanobis",
+    "precision": 0.75,
+    "recall": 0.75
+  },
+  {
+    "contamination": 0.1,
+    "detector": "isolation_forest",
+    "precision": 0.9125,
+    "recall": 0.9125
+  },
+  {
+    "contamination": 0.1,
+    "detector": "lof",
+    "precision": 0.7875,
+    "recall": 0.7875
+  },
+  {
+    "contamination": 0.1,
+    "detector": "one_class_svm",
+    "precision": 0.691358024691358,
+    "recall": 0.7
+  },
+  {
+    "contamination": 0.2,
+    "detector": "three_sigma",
+    "precision": 1.0,
+    "recall": 0.325
+  },
+  {
+    "contamination": 0.2,
+    "detector": "iqr",
+    "precision": 1.0,
+    "recall": 0.3375
+  },
+  {
+    "contamination": 0.2,
+    "detector": "mahalanobis",
+    "precision": 0.69375,
+    "recall": 0.69375
+  },
+  {
+    "contamination": 0.2,
+    "detector": "isolation_forest",
+    "precision": 0.91875,
+    "recall": 0.91875
+  },
+  {
+    "contamination": 0.2,
+    "detector": "lof",
+    "precision": 0.49375,
+    "recall": 0.49375
+  },
+  {
+    "contamination": 0.2,
+    "detector": "one_class_svm",
+    "precision": 0.69375,
+    "recall": 0.69375
+  },
+  {
+    "contamination": 0.35,
+    "detector": "three_sigma",
+    "precision": 1.0,
+    "recall": 0.03571428571428571
+  },
+  {
+    "contamination": 0.35,
+    "detector": "iqr",
+    "precision": 1.0,
+    "recall": 0.3392857142857143
+  },
+  {
+    "contamination": 0.35,
+    "detector": "mahalanobis",
+    "precision": 0.6642857142857143,
+    "recall": 0.6642857142857143
+  },
+  {
+    "contamination": 0.35,
+    "detector": "isolation_forest",
+    "precision": 0.9,
+    "recall": 0.9
+  },
+  {
+    "contamination": 0.35,
+    "detector": "lof",
+    "precision": 0.33214285714285713,
+    "recall": 0.33214285714285713
+  },
+  {
+    "contamination": 0.35,
+    "detector": "one_class_svm",
+    "precision": 0.7,
+    "recall": 0.7
+  }
+]

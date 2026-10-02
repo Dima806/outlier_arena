@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "n_samples": 600,
+    "contamination": 0.08,
+    "seed": 7
+  },
+  "n_flagged_by_method": {
+    "iqr": 16,
+    "mahalanobis": 48,
+    "lof": 48,
+    "isolation_forest": 48
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "notebook": "06_decision_framework",
+  "decision_guide": [
+    {
+      "scenario": "Univariate, roughly symmetric",
+      "recommended": "IQR / modified z-score (never plain three-sigma)"
+    },
+    {
+      "scenario": "Multivariate vs one correlated cloud",
+      "recommended": "Mahalanobis distance"
+    },
+    {
+      "scenario": "Local, in data of varying density",
+      "recommended": "Local Outlier Factor (LOF)"
+    },
+    {
+      "scenario": "General tabular, mixed kinds",
+      "recommended": "Isolation Forest (robust default)"
+    },
+    {
+      "scenario": "High dimensions",
+      "recommended": "Isolation Forest; cut features; avoid distance"
+    }
+  ],
+  "detect_outliers_demo": {
+    "iqr": 16,
+    "mahalanobis": 48,
+    "lof": 48,
+    "isolation_forest": 48
+  },
+  "agreement_report": {
+    "mean_pairwise_agreement": 0.5186066420818888,
+    "consensus_fraction": 0.25,
+    "n_disputed": 48
+  },
+  "meta_rules": [
+    "Decide the anomaly type before choosing a detector.",
+    "Run several detectors and inspect the disagreements.",
+    "Treat outlier removal as a deliberate modeling decision."
+  ]
+}

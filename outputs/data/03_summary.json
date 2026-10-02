@@ -1,0 +1,55 @@
+{
+  "notebook": "03_the_detector_zoo",
+  "inputs": {
+    "n_samples": 800,
+    "contamination": 0.08,
+    "seed": 7
+  },
+  "recall_by_type": {
+    "three_sigma": {
+      "precision": 1.0,
+      "recall": 0.344,
+      "recall_global": 1.0,
+      "recall_local": 0.0,
+      "recall_multivariate": 0.0
+    },
+    "iqr": {
+      "precision": 1.0,
+      "recall": 0.344,
+      "recall_global": 1.0,
+      "recall_local": 0.0,
+      "recall_multivariate": 0.0
+    },
+    "mahalanobis": {
+      "precision": 0.688,
+      "recall": 0.688,
+      "recall_global": 1.0,
+      "recall_local": 0.19,
+      "recall_multivariate": 0.857
+    },
+    "isolation_forest": {
+      "precision": 0.922,
+      "recall": 0.922,
+      "recall_global": 1.0,
+      "recall_local": 0.762,
+      "recall_multivariate": 1.0
+    },
+    "lof": {
+      "precision": 0.969,
+      "recall": 0.969,
+      "recall_global": 1.0,
+      "recall_local": 0.952,
+      "recall_multivariate": 0.952
+    },
+    "one_class_svm": {
+      "precision": 0.703,
+      "recall": 0.703,
+      "recall_global": 1.0,
+      "recall_local": 0.429,
+      "recall_multivariate": 0.667
+    }
+  },
+  "isolation_forest_scratch_spearman": 0.9227275858620652,
+  "mahalanobis_max_abs_diff": 1.5987211554602254e-14,
+  "claim": "Different detectors catch different kinds; no detector wins everywhere."
+}

@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "seed": 7,
+    "distribution": "lognormal(mean=0, sigma=0.75) + one short-side anomaly"
+  },
+  "short_side_value": -1.4,
+  "three_sigma_band": [
+    -1.5335800116150242,
+    3.8432871555939148
+  ],
+  "iqr_fences": [
+    -0.8231933299441945,
+    2.8413790740250517
+  ],
+  "three_sigma_recall": 0.0,
+  "three_sigma_tail_false_positives": 11,
+  "iqr_recall": 1.0
+}

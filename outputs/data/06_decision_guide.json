@@ -1,0 +1,24 @@
+{
+  "decision_guide": [
+    {
+      "scenario": "Univariate, roughly symmetric",
+      "recommended": "IQR / modified z-score (never plain three-sigma)"
+    },
+    {
+      "scenario": "Multivariate vs one correlated cloud",
+      "recommended": "Mahalanobis distance"
+    },
+    {
+      "scenario": "Local, in data of varying density",
+      "recommended": "Local Outlier Factor (LOF)"
+    },
+    {
+      "scenario": "General tabular, mixed kinds",
+      "recommended": "Isolation Forest (robust default)"
+    },
+    {
+      "scenario": "High dimensions",
+      "recommended": "Isolation Forest; cut features; avoid distance"
+    }
+  ]
+}

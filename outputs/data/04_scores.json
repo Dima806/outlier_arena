@@ -1,0 +1,56 @@
+{
+  "three_sigma": {
+    "precision": 1.0,
+    "recall": 0.338,
+    "f1": 0.505,
+    "n_flagged": 27,
+    "recall_global": 1.0,
+    "recall_local": 0.0,
+    "recall_multivariate": 0.0
+  },
+  "iqr": {
+    "precision": 1.0,
+    "recall": 0.338,
+    "f1": 0.505,
+    "n_flagged": 27,
+    "recall_global": 1.0,
+    "recall_local": 0.0,
+    "recall_multivariate": 0.0
+  },
+  "mahalanobis": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75,
+    "n_flagged": 80,
+    "recall_global": 1.0,
+    "recall_local": 0.444,
+    "recall_multivariate": 0.808
+  },
+  "isolation_forest": {
+    "precision": 0.888,
+    "recall": 0.888,
+    "f1": 0.888,
+    "n_flagged": 80,
+    "recall_global": 1.0,
+    "recall_local": 0.741,
+    "recall_multivariate": 0.923
+  },
+  "lof": {
+    "precision": 0.812,
+    "recall": 0.812,
+    "f1": 0.812,
+    "n_flagged": 80,
+    "recall_global": 1.0,
+    "recall_local": 0.704,
+    "recall_multivariate": 0.731
+  },
+  "one_class_svm": {
+    "precision": 0.709,
+    "recall": 0.7,
+    "f1": 0.704,
+    "n_flagged": 79,
+    "recall_global": 1.0,
+    "recall_local": 0.593,
+    "recall_multivariate": 0.5
+  }
+}
